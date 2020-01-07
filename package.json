@@ -13,6 +13,7 @@
     "start-message": "babel-node tools/startMessage.js",
     "deleted:prestart": "npm run start-message",
     "start": "node server/server.js",
+    "startRaheel":"react-script start",
     "start:dev": "npm run open:src",
     "start:original": "concurrently -k -r -s first \"npm run test:watch\" \"npm run open:src\" \"npm run lint:watch\"",
     "open:src": "babel-node tools/srcServer.js",

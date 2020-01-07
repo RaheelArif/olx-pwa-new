@@ -1,4 +1,5 @@
-importScripts('assets/plugins/sw-toolbox/sw-toolbox.js'); //eslint-disable-line
+importScripts('https://cdnjs.cloudflare.com/ajax/libs/sw-toolbox/3.6.1/sw-toolbox.js'); //eslint-disable-line
+//importScripts('assets/plugins/sw-toolbox/sw-toolbox.js'); //eslint-disable-line
 // importScripts('http://localhost:5005/assets/plugins/sw-toolbox/sw-toolbox.js');
 
 const swCaches = {
