@@ -51,3 +51,5 @@ if (module.hot) {
     );
   });
 }
+
+serviceWorker.register();

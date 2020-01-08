@@ -112,7 +112,7 @@ class Header extends Component {
           <div className="row pt-2 pb-2">
             <div className="col-9 col-sm-9 col-lg-6 d-flex">
               <div className="site-logo">
-                <Link to="/"><img className="m-auto img-fluid" src={olxLogo} alt={`OLX Pakistan`} /></Link>
+                <Link to="/"><img width="100" className="m-auto img-fluid" src={olxLogo} alt={`OLX Pakistan`} /></Link>
               </div>
               <div className="site-slogan">
                 <span className="m-auto bold">{`Pakistan's Largest Marketplace`}</span>
@@ -120,9 +120,6 @@ class Header extends Component {
             </div>
 
             <div className="col-3 col-lg-6 m-auto text-right d-none d-lg-block">
-              <Link to="/my-account" className="btn btn-custom-hollow"><i className="fa fa-user"></i> My Account</Link>
-              <Link to="/my-account" className="btn btn-custom-hollow"><i className="fa fa-user"></i> My Account</Link>
-              <Link to="/my-account" className="btn btn-custom-hollow"><i className="fa fa-user"></i> My Account</Link>
               <Link to="/my-account" className="btn btn-custom-hollow"><i className="fa fa-user"></i> My Account</Link>
               <Link to="/post-your-ad" className="btn btn-custom-orange mr-0" href="#">Post an Ad</Link>
               {this.state.authenticated && <span onClick={this.handleLogout} className="btn btn-link"><i className="fa fa-logout"></i> Logout</span>}
